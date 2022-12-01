@@ -11,3 +11,6 @@ This webpage was used as a knowledge challenge to test CSS ability. This can now
 
 ## Credits
 This began was provided by EdX Skills For Life Bootcamp, therefore the code follows their basic instructions and specifications.
+
+## Deployed Application
+Link to deployed webpage: https://alexains.github.io/CSS-CheatSheet
