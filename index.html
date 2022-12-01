@@ -15,7 +15,7 @@
     <!-- Header -->
     <header>
         <h1 id="header">CSS Cheat Sheet</h1>
-        <p>
+        <p id="explanation">
             Ever have trouble recalling the exact syntax for your favorite CSS Code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all the code for you to copy.
         </p>
     </header>
@@ -25,9 +25,9 @@
         <div id="cardGrid">
             <section class="card" id="flexbox-row">
                 <h2 class="cardHeader">Flexbox Row</h2>
-                <p class="description">Use these three properties to create a Flexbox Row layout.</p>
-                <div class="code">
-                    <pre>
+                <div class="description">
+                    <p>Use these three properties to create a Flexbox Row layout.</p>
+                    <pre class="code">
                         .row{
                             display: flex;
                             flex-direction: row;
@@ -38,9 +38,9 @@
             </section>
             <section class="card" id="flexbox-column">
                 <h2 class="cardHeader">Flexbox Column</h2>
-                <p class="description">Use this to create a Flexbox Column layout.</p>
-                <div class="code">
-                    <pre>
+                <div class="description">
+                    <p>Use this to create a Flexbox Column layout.</p>
+                    <pre class="code">
                         .column{
                             display: flex;
                             flex-direction: column;
@@ -50,9 +50,9 @@
             </section>
             <section class="card" id="grid-layout">
                 <h2 class="cardHeader">CSS Grid Layout</h2>
-                <p class="description">Build a 12-column layout using CSS Grid.</p>
-                <div class="code">
-                    <pre>
+                <div class="description">
+                    <p>Build a 12-column layout using CSS Grid.</p>
+                    <pre class="code">
                         .grid{
                             display: grid;
                             width: 100%;
@@ -64,23 +64,22 @@
             </section>
             <section class="card" id="linear-gradient">
                 <h2 class="cardHeader">Linear Gradient</h2>
-                <p class="description">This will create a background linear gradient from top to bottom.</p>
-                <div class="code">
-                    <pre>
+                <div class="description">   
+                    <p>This will create a background linear gradient from top to bottom.</p>
+                    <pre class="code">
                         .linear-gradient-background{
                             background-image: linear-gradient(
                                 rgba(232, 102, 236, 0.3) 0%,
-                                rgba(232, 102, 236, 0.6) 100%
-                            );
+                                rgba(232, 102, 236, 0.6) 100%);
                         }
                     </pre>
                 </div>
             </section>
             <section class="card" id="box-transition-glow">
                 <h2 class="cardHeader">Box Transition Glow</h2>
-                <p class="description">Use transition and box shadows to glow on hover</p>
-                <div class="code">
-                    <pre>
+                <div class="description">
+                    <p>Use transition and box shadows to glow on hover</p>
+                    <pre class="code">
                         .code-card .card-header{
                             border-radius: 8px;
                             transition: all 0.5s ease-in-out;
@@ -97,9 +96,9 @@
             </section>
             <section class="card" id="overlay-card-title">
                 <h2 class="cardHeader">Overlay Card with Title</h2>
-                <p class="description">Use position properties and negative margins to raise elements higher than their natural starting point</p>
-                <div class="code">
-                    <pre>
+                <div class="description">
+                    <p>Use position properties and negative margins to raise elements higher than their natural starting point</p>
+                    <pre class="code">
                         .card-header{
                             position: relative;
                             margin-top: -20px;
